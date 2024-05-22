@@ -36,3 +36,5 @@ async def extract(instance: Request):
         predictions.append(answers)
 
     return {"predictions": predictions}
+
+
